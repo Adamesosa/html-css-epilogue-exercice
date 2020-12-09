@@ -3,11 +3,16 @@ body{
     background-color: grey;
 }
 /* header */
+header{
+   position: relative;
+
+}
 .dessus{
 position: absolute;
 top: 40%;
 text-align: center;
-margin-left: 40%;
+left: 50%;
+transform: translateX(-50%);
 color: white;
 font-family:'Pacifico', cursive;
 
@@ -16,14 +21,28 @@ font-family:'Pacifico', cursive;
 .dessus h1{
     border-bottom: solid 1px;
 }
+.dessous img{
+    height: 70vh;
+    width: 100%;
+    
+}
+
 /* fin header */
 
 /* banner */
+.diamant{
+    border: solid 2px black;
+    border-radius: 70%;
+    padding: 10px;
+}
 .magna{
     background-color: white;
     padding: 100px;
     margin-bottom: 35px;
     margin-top: 35px;
     text-align: center;
-
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
+/* fin banner */
