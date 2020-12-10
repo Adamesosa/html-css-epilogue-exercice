@@ -115,3 +115,43 @@ font-family:'Pacifico', cursive;
 }
 /* fin card */
 
+/* debut avant footer */
+.etiam{
+    
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 7%;
+
+}
+button :hover{
+    border-color: red;
+}
+
+
+footer{
+    
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.iconeFooter{
+    margin-bottom: 40px;
+    letter-spacing: 10px;
+}
+
+
